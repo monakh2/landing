@@ -1,0 +1,78 @@
+@import "../vars";
+
+@import "../fonts";
+
+@import '../mixins/index-mixins';
+
+@import '../libraries/index-libraries';
+
+/*------------------------------------------------------------------
+    File Name: style.css
+    Template Name: Landigoo
+    Created By: MelodyThemes
+    Envato Profile: http://themeforest.net/user/melodythemes
+    Website: https://melodythemes.com
+    Version: 1.0
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+    [Table of contents]
+	1. IMPORT FONTS
+    2. IMPORT FILES
+	3. SKELETON
+	  1.1. Preloader
+	  1.2. Scrollup
+	4. HEADER AREA
+	5. BANNER AREA
+	6. ABOUT AREA
+	7. SPECIAL-MENU AREA
+	8. MENU AREA
+	8. TEAM AREA
+	9. GALLERY AREA
+	10. BLOG AREA
+	11. PRICING AREA
+	12. RESERVATIONS AREA
+	13. FOOTER AREA
+	14. COPYRIGHT AREA
+	15. COLOR SWITCHER AREA
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+    IMPORT FONTS
+-------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Paprika');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+/*------------------------------------------------------------------
+    IMPORT FILES
+-------------------------------------------------------------------*/
+@import url("separate-css/owl.theme.css");
+@import url("separate-css/owl.carousel.css");
+@import url("separate-css/slick.css");
+@import url("separate-css/flaticon.css");
+@import url("separate-css/font-awesome.min.css");
+@import url("separate-css/bootstrap-datetimepicker.css");
+@import url("separate-css/bootstrap-select.min.css");
+//@import url("separate-css/normalize.css");
+@import url("separate-css/animate.min.css");
+
+
+
+
+@import "common";
+
+@import "components/elements/preloader";
+@import "components/elements/scrollUp";
+@import "components/header/header";
+@import "components/banner/banner";
+@import "components/about/about";
+@import "components/menu/special-menu";
+@import "components/menu/menu";
+@import "components/team/team";
+@import "components/gallery/gallery";
+@import "components/blog/blog";
+@import "components/pricing/pricing";
+@import "components/reservation/reservation";
+@import "components/footer/footer";
+@import "components/footer/copyright";
+@import "components/elements/color-panel";
+
+
+@import "responsive";

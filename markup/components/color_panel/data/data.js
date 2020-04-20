@@ -1,0 +1,1 @@
+var data = {color_panel: {}};

@@ -1,0 +1,80 @@
+<!doctype html>
+<html class="no-js" lang="ru">
+
+<head>
+    {{> head/head head.defaults}}
+</head>
+
+<body>
+<div id="loader">
+    <div id="status"></div>
+</div>
+
+<div id="site-header">
+    {{> header/header}}
+</div>
+
+<div id="banner" class="banner full-screen-mode parallax">
+    {{> banner/banner}}
+</div>
+
+<div id="about" class="about-main pad-top-100 pad-bottom-100">
+    {{> about/about}}
+</div>
+
+<div class="special-menu pad-top-100 parallax">
+    {{> menu/special-menu}}
+</div>
+
+<div id="menu" class="menu-main pad-top-100 pad-bottom-100">
+    {{> menu/menu}}
+</div>
+
+<div id="our_team" class="team-main pad-top-100 pad-bottom-100 parallax">
+    {{> team/team}}
+</div>
+
+<div id="gallery" class="gallery-main pad-top-100 pad-bottom-100">
+    {{> gallery/gallery}}
+</div>
+
+<div id="blog" class="blog-main pad-top-100 pad-bottom-100 parallax">
+    {{> blog/blog}}
+</div>
+
+<div id="pricing" class="pricing-main pad-top-100 pad-bottom-100">
+        {{> pricing/pricing}}
+</div>
+<!-- end pricing-main -->
+<div id="reservation" class="reservations-main pad-top-100 pad-bottom-100">
+    {{> reservation/reservation}}
+</div>
+
+<div id="footer" class="footer-main">
+    {{> footer/footer}}
+</div>
+
+
+<a href="#" class="scrollup" style="display: none;">Scroll</a>
+
+
+<section id="color-panel" class="close-color-panel">
+    {{> color_panel/color_panel}}
+</section>
+
+
+<script src="%=static=%js/separate-js/svg4everybody.min.js"></script>
+<script>svg4everybody();</script>
+
+
+<!-- ALL JS FILES -->
+<script src="%=static=%js/separate-js/all.js"></script>
+<script src="%=static=%js/separate-js/bootstrap.min.js"></script>
+<!-- ALL PLUGINS -->
+<script src="%=static=%js/separate-js/custom.js"></script>
+<!-- Main scripts. You can replace it, but I recommend you to leave it here     -->
+<script src="%=static=%js/main%=hash=%%=min=%.js"></script>
+
+</body>
+
+</html>
