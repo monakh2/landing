@@ -9,14 +9,18 @@
     "@babel/preset-env": "^7.9.5"
   },
   "devDependencies": {
+    "animate.css": "^3.7.2",
+    "bootstrap-sass": "^3.4.1",
     "cssnano": "^4.1.10",
     "family.scss": "^1.0.8",
     "gulp": "^4.0.2",
     "handlebars-helpers": "^0.10.0",
+    "owl.carousel": "^2.3.4",
     "rucksack-css": "^1.0.2",
     "sass-bem-mixins": "^1.1.6",
     "sass-mediaqueries": "^1.6.1",
-    "scut": "^1.4.0"
+    "scut": "^1.4.0",
+    "slick-carousel": "^1.8.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

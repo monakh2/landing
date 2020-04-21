@@ -10,57 +10,26 @@
             <div class="team-box">
 
                 <div class="row">
+
+                    {{#each team.teamList}}
                     <div class="col-md-4 col-sm-6">
                         <div class="sf-team">
                             <div class="thumb">
-                                <a href="#"><img src="%=static=%img/assets/team/staff-01.jpg" alt=""></a>
+                                <a href="#"><img src="%=static=%img/assets/team/{{this.img}}" alt=""></a>
                             </div>
                             <div class="text-col">
-                                <h3>John Doggett</h3>
-                                <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Aenean commodo ligula.</p>
+                                <h3>{{this.title}}</h3>
+                                <p>{{this.text}}</p>
                                 <ul class="team-social">
-                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    {{#each this.social}}
+                                    <li><a href="#"><i class="{{this}}" aria-hidden="true"></i></a></li>
+                                    {{/each}}
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <!-- end col -->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="sf-team">
-                            <div class="thumb">
-                                <a href="#"><img src="%=static=%img/assets/team/staff-02.jpg" alt=""></a>
-                            </div>
-                            <div class="text-col">
-                                <h3>Jeffrey Spender</h3>
-                                <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Aenean commodo ligula.</p>
-                                <ul class="team-social">
-                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end col -->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="sf-team">
-                            <div class="thumb">
-                                <a href="#"><img src="%=static=%img/assets/team/staff-03.jpg" alt=""></a>
-                            </div>
-                            <div class="text-col">
-                                <h3>Monica Reyes</h3>
-                                <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Aenean commodo ligula.</p>
-                                <ul class="team-social">
-                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end col -->
+                    {{/each}}
                 </div>
                 <!-- end row -->
 

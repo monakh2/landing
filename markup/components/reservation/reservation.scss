@@ -7,6 +7,7 @@
 .form-reservations-box {
     width: 70%;
     margin: 0 auto;
+
 }
 .reservations-main h4 {
     text-align: center;
@@ -22,6 +23,12 @@
 }
 .reservations-box {
     padding-top: 30px;
+    //.form-box-wrap {
+    //    &:nth-child(5) {
+    //        background-color: red;
+    //        @extend %scut-clearfix;
+    //    }
+    //}
 }
 .form-box {
     margin-bottom: 20px;
