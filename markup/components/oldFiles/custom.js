@@ -24,7 +24,7 @@
         },
 
         modules: function () {
-
+            // new WOW().init();
         },
         smoothScroll: function () {
             $('a[href*=#]:not([href=#])').click(function () {
@@ -68,11 +68,10 @@
         carousel: function () {
             $(document).ready(function () {
                 $("#owl-demo").owlCarousel({
-                    autoPlay: 3000, //Set AutoPlay to 3 seconds
-                    items: 3,
-                    itemsDesktop: [1199, 3],
-                    itemsDesktopSmall: [979, 2]
-
+                    autoplay: true,
+                    loop: true,
+                    autoplayTimeout: 3000,
+                    autoplayHoverPause: true,
                 });
             });
         },
@@ -290,7 +289,7 @@
             // this === app ( $.proxy help with it)
         },
         testFunction: function () {
-            console.log('Hallo my JS APP');
+            // console.log('Hallo my JS APP');
         }
 
     };
@@ -298,9 +297,3 @@
     app.initialize();
 
 }(jQuery));
-
-(function ($) {
-    'use strict';
-    new WOW().init();
-
-})(jQuery);

@@ -29,8 +29,20 @@
 .item-type-zoom .item-hover:hover::before{
 	background: rgba(231, 91, 30, 0.5);
 }
-.special-box .owl-theme .owl-controls .owl-page.active span{
-	background: #e75b1e;
+.special-box .owl-theme .owl-dots {
+
+    .owl-dot{
+        span {
+            border: 2px solid #fff;
+            background: #202020;
+            @include scut-size(16px);
+        }
+        &.active {
+            span {
+                background-color: #e75b1e;;
+            }
+        }
+    }
 }
 .offer-item div h3{
 	color: #e75b1e;
@@ -131,5 +143,5 @@
 }
 
 #color-panel a.panel-button:hover{
-	color: #e75b1e;		
+	color: #e75b1e;
 }
