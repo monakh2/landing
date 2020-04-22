@@ -44,19 +44,6 @@
     IMPORT FILES
 -------------------------------------------------------------------*/
 
-//@import url("separate-css/owl.theme.css");
-//@import url("separate-css/owl.carousel.css");
-//@import url("separate-css/slick.css");
-//@import url("separate-css/flaticon.css");
-//@import url("separate-css/font-awesome.min.css");
-//@import url("separate-css/bootstrap-datetimepicker.css");
-//@import url("separate-css/bootstrap-select.min.css");
-//@import url("separate-css/normalize.css");
-//@import url("separate-css/animate.min.css");
-
-
-
-
 @import "common";
 
 @import "components/elements/preloader";
@@ -74,6 +61,7 @@
 @import "components/footer/footer";
 @import "components/footer/copyright";
 @import "components/elements/color-panel";
+@import "components/elements/select";
 
 //colors
 @import "partials/colors/orange";

@@ -24,7 +24,7 @@
         },
 
         modules: function () {
-            // new WOW().init();
+            AOS.init();
         },
         smoothScroll: function () {
             $('a[href*=#]:not([href=#])').click(function () {
