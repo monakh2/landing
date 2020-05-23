@@ -19,6 +19,7 @@ const handlebarsHelpers = {
         return str;
     }
 };
+
 // TODO: I add handlebars-helpers support
 const hb_hepl = require('handlebars-helpers')();
 
